@@ -40,8 +40,7 @@ The `ExpAL` class in this code repository provides a flexible framework for acti
 
 3. **Query for New Instances:**
    ```python
-   query_method = Query_by_Committee  # Choose a query method (e.g., Query_by_Committee)
-   X_query, query_idxs = al.query(query_method)
+   X_query, query_idxs = al.query(Query_by_Committee)
    ```
 4. **Perform some lab experiments to label X_query(not through the following function!)**
    ```python
