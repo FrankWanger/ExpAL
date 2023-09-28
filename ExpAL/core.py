@@ -25,7 +25,7 @@ class ExpAL:
         ALround -- Current round of AL
 
     Methods:
-        initialize_data(X, y, X_pool): Initialize the training data and pool.
+        init(X, y, X_pool): Initialize the training data and pool.
         eval(**eval_kwargs): Evaluate the current dataset with the eval_regr using 'cross_validation' function in sklearn.
         query(query_method): Query the pool for new instances using a specified query method.
         add_results(X_new, y_new): Add newly labeled instances to the training set.
@@ -51,7 +51,7 @@ class ExpAL:
         self.verbose = verbose
         self.ALround = 0
 
-    def initialize_data(self,X_start,y_start,X_pool):
+    def init(self,X_start,y_start,X_pool):
         '''
         Initialize training data and pool.
 
