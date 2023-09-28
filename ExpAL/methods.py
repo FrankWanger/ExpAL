@@ -3,7 +3,6 @@ import random
 
 from sklearn.utils import resample
 
-
 def Random_Pick(X_pool, X_train = None, 
                 y_train = None, regr_list = None, 
                 batch_size=1):

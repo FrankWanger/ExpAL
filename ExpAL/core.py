@@ -178,7 +178,7 @@ class ExpALRetro(ExpAL):
         self.y_pool = np.array([])
 
 
-    def initialize_data(self,X_start,y_start,X_pool,y_pool):
+    def init(self,X_start,y_start,X_pool,y_pool):
         '''
         Initialize training data and pool.
 
