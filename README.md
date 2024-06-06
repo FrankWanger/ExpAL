@@ -4,7 +4,8 @@ The `ExpAL` is a simplified active learning toolbox with a focus on tackling dat
 
 This code repository provides a versatile active learning framework for regression tasks. It includes two main classes: `ExpAL` and `ExpALRetro`, along with various sampling methods for selecting instances from a pool of unlabeled data.
 ## Publication
-Title: Tackling Data Scarcity Challenge through Active Learning in Materials Processing with Electrospray
+Tackling Data Scarcity Challenge through Active Learning in Materials Processing with Electrospray. Advanced Intelligent Systems (2024).
+
 Please cite our paper [here](https://doi.org/10.1002/aisy.202300798)
 
 ## Installation
